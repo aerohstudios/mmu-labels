@@ -1,0 +1,42 @@
+❯ bash GenerateLabels.sh
+total bed size needed for grid size 8x3=24 is 161mm x 161.0mm
+Fontconfig warning: "/Applications/OpenSCAD.app/Contents/Resources/fonts/fonts.conf", line 84: unknown element "blank"
+Geometries in cache: 149
+Geometry cache size in bytes: 17622208
+CGAL Polyhedrons in cache: 10
+CGAL cache size in bytes: 103242464
+Total rendering time: 0:05:26.883
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    54950
+   Halfedges:  164850
+   Edges:       82425
+   Halffacets:  56390
+   Facets:      28195
+   Volumes:       361
+Geometries in cache: 29
+Geometry cache size in bytes: 1042072
+CGAL Polyhedrons in cache: 1
+CGAL cache size in bytes: 8527584
+Total rendering time: 0:00:21.903
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:     6336
+   Halfedges:   19008
+   Edges:        9504
+   Halffacets:   6432
+   Facets:       3216
+   Volumes:        25
+Geometries in cache: 28
+Geometry cache size in bytes: 1004192
+CGAL Polyhedrons in cache: 1
+CGAL cache size in bytes: 8527584
+Total rendering time: 0:00:21.819
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:     6336
+   Halfedges:   19008
+   Edges:        9504
+   Halffacets:   6432
+   Facets:       3216
+   Volumes:        25
