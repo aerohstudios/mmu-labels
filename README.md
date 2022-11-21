@@ -41,7 +41,7 @@ You should now have 3 `.stl` files in the `STLs` directory. Verify that they exi
 
 - The above command might fail if your `$OPENSCAD_CMD` variable is not set correctly. I have set this correctly for my Mac, but it might not work for yours. Please change the varible to a correct command line path of `openscad`, or just open the `.scad` files from `tmp` directory, and export them to STL from OpenSCAD GUI.
 
-- You might see a warning: `unknown element "blank"`. Just ignore that and let the command complete. It may take a few minutes to complete the render and generate the STL files. Sample command line output: [output.txt](output.txt)
+- You might see a warning: `unknown element "blank"`. Just ignore that and let the command complete. It may take a few minutes to complete the render and generate the STL files. For instance, it takes around 5-8 minutes for the command to finish on a reasonably beefed up laptop. Here's a sample command line output: [docs/output.txt](docs/output.txt). In the meantime, you should preview [tmp/preview.scad](tmp/preview.scad) on OpenSCAD to verify that there is no text overflow in the labels.
 
 - The above command will generate a grid of 8x3 which needs 16.1cm x 16.1cm, which should work for majority of 3D printers. I am using Prusa MK3S+ with MMU2S, 8x3 works perfectly for me. Given that I also need to leave some space for the purge block. Change this settings by modifying `grid_row` and `grid_cols` variable in `GenerateLabels.py` if you have a different requirement.
 
